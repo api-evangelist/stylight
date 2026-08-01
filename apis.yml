@@ -1,8 +1,16 @@
 aid: stylight
 name: Stylight
-description: 'Stylight is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Stylight is an online fashion and home-decor shopping aggregator that curates
+  and compares products from more than 100 retailers, letting shoppers browse
+  women's and men's apparel, footwear, accessories, beauty and home furnishings
+  across many brands in one place and then complete the purchase on the partner
+  retailer's own store. The platform operates localized sites across the US, UK,
+  Germany, Austria, Switzerland, France, Italy, Spain, Belgium, the Netherlands
+  and Canada, runs an editorial style magazine, and monetizes through affiliate
+  partnerships with the retailers it links to. HV Capital was an early backer.
+  Stylight publishes no public developer API; this profile captures its public
+  web, legal and security surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/stylight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +18,63 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://images.cdn.inspogroup.net/MG2P4BqftCeq2sQBik9HlhsUObdvtHT_QrY7U9wFoEY/czM6L/y9zdG/F0aWMuc3R5bGlnaHQuZGUvZnJvbnRlbmQvZGlzdC92YzM2MTE5L2ltYWdlcy9jb20vb2ctaW1hZ2Utc3RhbmRhcmQudmMzNjExOS5wbmc
 tags:
 - Company
 - Consumer
+- Fashion
+- E-commerce
+- Shopping
+- Retail
+- Aggregator
+- Affiliate
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/stylight-vulnerability-disclosure.yml
+- type: Security
+  name: Security policy (security.txt + Open Bug Bounty)
+  url: https://www.stylight.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/stylight-domain-security.yml
+- type: Website
+  url: https://www.stylight.com/
+- type: About
+  url: https://www.stylight.com/about/
+- type: Blog
+  url: https://blog.stylight.com/
+- type: TermsOfService
+  url: https://about.stylight.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://about.stylight.com/privacy-policy
+- type: TermsOfService
+  name: Legal Notice / Imprint
+  url: https://about.stylight.com/legal-notice
+- type: SecurityTxt
+  url: well-known/stylight-security.txt
+- type: WellKnown
+  url: well-known/stylight-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
