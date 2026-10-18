@@ -27,5 +27,5 @@
     - connectors/applications/stylight
     vendor_link: https://www.stylight.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
